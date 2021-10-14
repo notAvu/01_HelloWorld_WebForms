@@ -22,10 +22,11 @@ namespace _01_HelloWorld_WebForms_UI.Models
         /// <param name="e"></param>
         protected void btnEnviar_Click(object sender, EventArgs e)
         {
+            clsPersona yo; 
             string nombre = txtNombre.Text;
             if (!String.IsNullOrEmpty(nombre))
             {
-                clsPersona yo = new clsPersona(nombre);
+                yo =new clsPersona(nombre);
                 lblMensaje.Text = $"Hola {yo.Nombre}";
                 lblError.Text = "";
             }
