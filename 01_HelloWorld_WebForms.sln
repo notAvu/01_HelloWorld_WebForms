@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_HelloWorld_WebForms_UI", "01_HelloWorld_WebForms_UI\01_HelloWorld_WebForms_UI.csproj", "{3FD353F9-D01A-4AB9-804F-5D166630183B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_HelloWorld_WebForms_Entities", "01_HelloWorld_WebForms_Entities\01_HelloWorld_WebForms_Entities.csproj", "{4669F2F3-4FF7-4830-BC59-4630C2C8737D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FD353F9-D01A-4AB9-804F-5D166630183B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD353F9-D01A-4AB9-804F-5D166630183B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD353F9-D01A-4AB9-804F-5D166630183B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD353F9-D01A-4AB9-804F-5D166630183B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4669F2F3-4FF7-4830-BC59-4630C2C8737D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4669F2F3-4FF7-4830-BC59-4630C2C8737D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4669F2F3-4FF7-4830-BC59-4630C2C8737D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4669F2F3-4FF7-4830-BC59-4630C2C8737D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {958C199E-0056-462D-ADF3-572FEBDA8D91}
+	EndGlobalSection
+EndGlobal
